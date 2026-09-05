@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25ad48a83e7f12449ba6408f5eb1271, type: 3}
+  m_Name: Switch Texture Config
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::SwitchTextureConfig
+  Straight_Straight: {fileID: 2800000, guid: 84c14c7e50b072e43afb815032a069ca, type: 3}
+  Straight_Diverging: {fileID: 2800000, guid: 53ae6ee63d77a494590b5d841fcc8c1d, type: 3}
+  Diverging_Straight: {fileID: 2800000, guid: ba29c78b2162f70448774e8641ac6f27, type: 3}
+  Diverging_Diverging: {fileID: 2800000, guid: 1f46749023e808942b4441390c74d8a2, type: 3}
