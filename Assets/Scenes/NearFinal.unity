@@ -66553,6 +66553,78 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1871233766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1871233768}
+  - component: {fileID: 1871233767}
+  m_Layer: 0
+  m_Name: TimetableManager (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1871233767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871233766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f131193aed69b40898472b16f0b9e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TimetableManager
+  services:
+  - name: 2011
+    trainPrefab: {fileID: 6613624819680976984, guid: fd9ad846802800741a157c0bb7f2b478, type: 3}
+    spawnTime: 09:00:00
+    spawnPoint: {fileID: 581317819}
+    delayRange: {x: 0, y: 0}
+    delay: 0
+    schedule:
+    - station: Station B
+      departureTime: 09:05:00
+      arrivalTime: 09:03:00
+      plannedTrack: 0
+      nonStop: 0
+      departed: 0
+    - station: Player Station
+      departureTime: 09:04:00
+      arrivalTime: 09:03:00
+      plannedTrack: 2
+      nonStop: 0
+      departed: 0
+    - station: Station A
+      departureTime: 09:05:00
+      arrivalTime: 09:03:00
+      plannedTrack: 0
+      nonStop: 0
+      departed: 0
+    spawned: 0
+  timeManager: {fileID: 0}
+--- !u!4 &1871233768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871233766}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.28, y: 0, z: 950.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1872120058
 GameObject:
   m_ObjectHideFlags: 0
@@ -70360,7 +70432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2017947218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74902,6 +74974,7 @@ SceneRoots:
   - {fileID: 2125080840}
   - {fileID: 1696937933}
   - {fileID: 2017947219}
+  - {fileID: 1871233768}
   - {fileID: 288324478}
   - {fileID: 876424657}
   - {fileID: 1006059689}

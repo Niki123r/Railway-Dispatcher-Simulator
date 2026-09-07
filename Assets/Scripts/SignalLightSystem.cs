@@ -117,7 +117,7 @@ public class SignalLightSystem : MonoBehaviour
 
     IEnumerator SwitchStates(int newStateIndex)
     {
-        if(start)
+        if (start)
         {
             foreach(var light in states[newStateIndex].lightsToEnable)
             {
