@@ -8,3 +8,6 @@ Birdseye view of the station
 
 ![Slika upravljačkog sučelja](Images/control_interface.png)
 Control interface (right monitor) and timetable (left monitor)
+
+Video showcase:
+https://github.com/user-attachments/assets/108ace5f-80de-48f9-9fce-5fa48e1802b9
